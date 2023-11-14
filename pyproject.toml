@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "klipper-protocol"
+version = "0.1.0"
+description = "Low level protocol implementation for Klipper"
+authors = ["Günther Jena <guenther@jena.at>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyserial = "^3.5"
+crc = "^5.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
